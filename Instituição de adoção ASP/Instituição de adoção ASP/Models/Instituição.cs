@@ -45,6 +45,8 @@ namespace Instituição_de_adoção_ASP.Models
         [MaxLength(50, ErrorMessage = " No máximo 50 caracteres")]
         [Display(Name = "Endereço da Instituição")]
         public string InstituiçãoEndereco { get; set; }
-
+        public Categoria Categoria { get; set; }
+        public Animal Animal { get; set; }
+        public Usuario Usuario { get; set; }
     }
 }
