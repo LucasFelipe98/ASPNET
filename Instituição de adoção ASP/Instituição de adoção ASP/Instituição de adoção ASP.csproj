@@ -136,6 +136,7 @@
     </Compile>
     <Compile Include="Models\Animal.cs" />
     <Compile Include="Models\Categoria.cs" />
+    <Compile Include="Models\Entities.cs" />
     <Compile Include="Models\Instituição.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
