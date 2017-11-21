@@ -1,4 +1,5 @@
 ﻿using Instituição_de_adoção_ASP;
+using Instituição_de_adoção_ASP.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
