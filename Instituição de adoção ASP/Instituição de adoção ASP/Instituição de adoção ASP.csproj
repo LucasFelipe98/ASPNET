@@ -158,7 +158,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\InstituiçãoController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
+    <Compile Include="DAL\InstituiçãoDAO.cs" />
     <Compile Include="DAL\Singleton.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -188,6 +190,12 @@
     <Content Include="Views\Usuarios\Details.cshtml" />
     <Content Include="Views\Usuarios\Edit.cshtml" />
     <Content Include="Views\Usuarios\Index.cshtml" />
+    <Content Include="Views\Instituição\Create.cshtml" />
+    <Content Include="Views\Instituição\Delete.cshtml" />
+    <Content Include="Views\Instituição\Details.cshtml" />
+    <Content Include="Views\Instituição\Edit.cshtml" />
+    <Content Include="Views\Instituição\Index.cshtml" />
+    <Content Include="Views\Instituição\Login.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

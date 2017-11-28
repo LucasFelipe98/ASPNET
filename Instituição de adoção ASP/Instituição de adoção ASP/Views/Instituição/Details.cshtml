@@ -1,0 +1,58 @@
+﻿@model Instituição_de_adoção_ASP.Models.Instituição
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Instituição</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.InstituiçãoLogin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InstituiçãoLogin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InstituiçãoNome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InstituiçãoNome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InstituiçãoTelefone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InstituiçãoTelefone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InstituiçãoEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InstituiçãoEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InstituiçãoEndereco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InstituiçãoEndereco)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.InstituiçãoId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
